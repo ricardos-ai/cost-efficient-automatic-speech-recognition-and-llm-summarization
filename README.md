@@ -1,15 +1,21 @@
 #  Surgical Intelligence Pipeline
 
-An end-to-end **AI pipeline** for multilingual medical audio analysis — designed to automatically transcribe surgical recordings, clean and translate text, and generate structured summaries, timestamps, and key medical entities using **ASR**, **NLP**, and **LLMs**.
+A cost-optimized AI pipeline for automatic German medical audio transcription and summarization.
+The project evaluates multiple open-source and commercial ASR models and free/low-cost LLMs to identify a reliable alternative to AWS Transcribe for healthcare data workflows.
+
+This system converts multilingual surgical or clinical recordings into structured text and concise summaries through integrated ASR and LLM modules.
 
 ---
 
 ##  Project Objective
 
-The goal of this project is to evaluate and build a **robust pipeline** capable of:
-1. Converting complex **medical audio** into high-quality text.
-2. Processing multilingual transcripts (mainly **German → English**).
-3. Producing accurate **summaries**, **timestamps**, and **keyword extraction** using advanced LLM techniques.
+The primary objective of this project is to find and evaluate efficient, low-cost AI models capable of:
+
+1. Transcribing German medical speech accurately into text using ASR systems.
+
+2. Summarizing long-form medical transcripts using free or lightweight open LLMs.
+
+3. Providing a scalable and budget-friendly alternative to enterprise services such as AWS Transcribe for internal medical documentation pipelines.
 
 ---
 
